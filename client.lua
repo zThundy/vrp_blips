@@ -2,6 +2,16 @@ local radarEsteso = false
 local mostrablip = false
 local mostranomi = false
 
+RegisterNetEvent('nopermsblips')
+AddEventHandler('nopermsblips', function()
+	TriggerEvent('chatMessage', 'Blips', {255, 0, 0}, "Non hai i permessi!")
+end)
+
+RegisterNetEvent('nopermsnames')
+AddEventHandler('nopermsnames', function()
+	TriggerEvent('chatMessage', 'Names', {255, 0, 0}, "Non hai i permessi!")
+end)
+
 RegisterNetEvent('mostraBlips')
 AddEventHandler('mostraBlips', function()
     mostrablip = not mostrablip
