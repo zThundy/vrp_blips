@@ -1,4 +1,6 @@
 # vrp_blips
+Discord: https://discord.gg/ZAvKBMt
+
 Same as blips-for-FiveM, but with vrp permissions check.
 
 Just add to your cfg/groups.lua the permission "admin.blips" and the guys with that Group will be able to do /blips and /names
